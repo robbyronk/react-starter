@@ -9,7 +9,7 @@ const Player = styled.li``;
 
 const PlayerList = ({ players }) => (
   <List>
-    {map(players, p => (
+    {map(players, (p) => (
       <Player key={p}>{p}</Player>
     ))}
   </List>
